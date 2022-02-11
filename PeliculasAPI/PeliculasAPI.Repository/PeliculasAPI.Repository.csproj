@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PeliculasAPI.Application\PeliculasAPI.Application.csproj" />
+    <ProjectReference Include="..\PeliculasAPI.Domain\PeliculasAPI.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
